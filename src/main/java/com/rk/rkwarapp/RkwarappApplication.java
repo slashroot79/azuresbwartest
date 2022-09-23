@@ -14,7 +14,7 @@ public class RkwarappApplication {
 		SpringApplication.run(RkwarappApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/test")
 	public String test(){
 		return "App's up and running";
 	}
